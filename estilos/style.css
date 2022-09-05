@@ -20,7 +20,7 @@ body{
 main{
     
     
-    background-color: rgba(165, 83, 42, 0.35);
+    background-image: linear-gradient(transparent,rgba(208, 208, 208, 0.118)) ;
     position: relative;
     height: 100vh;
 }
@@ -36,12 +36,36 @@ section#tel{
     background-repeat: no-repeat;
 }
 #tela{
-    position: relative;
+
+    position: absolute;
     top: 79px;
     left: 21px;
     width: 270px;
     height: 473px;
     border-radius: 5px;
+
+}
+section#redes-sociais  img{
+    border-radius: 50%;
+    width: 50px;
+    margin: 5px;
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.478);
+    box-sizing: border-box;
+}
+section#redes-sociais{
+    
+    padding-top: 150px;
+    padding-right: 50px;
+    text-align: right;
+    
+}
+
+section#redes-sociais  img:hover{
+    border: 2px  solid transparent;
+    transform: translate(-3px , -3px );
+    box-shadow: 2px 2px 3px 0px black ;
+    transition: 0.2s ;
+
 }
 /*section#redes-sociais{
         position: absolute;
